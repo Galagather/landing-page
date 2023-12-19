@@ -51,6 +51,9 @@ module.exports = {
       // backgroundImage: {
       //   'hero-image': "url('/src/assets/image/background.png')",
       // }
+      boxShadow: {
+        'primary': '2px 6px 4px 0px rgba(0, 0, 0, 0.12)',
+      }
     },
   },
   plugins: [],

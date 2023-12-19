@@ -1,4 +1,6 @@
 import Hero from "../components/Home/Hero";
+import OrderProcess from "../components/Home/OrderProcess";
+import Services from "../components/Home/Services";
 import WhyUs from "../components/Home/WhyUs";
 
 const Home = () => {
@@ -6,6 +8,8 @@ const Home = () => {
     <div>
       <Hero />
       <WhyUs />
+      <Services />
+      <OrderProcess />
     </div>
   )
 }
