@@ -1,6 +1,10 @@
-const PrimaryButton = ({ text }) => {
+const PrimaryButton = ({ text, width }) => {
   return (
-    <button className="bg-primary-500 text-white py-2.5 px-5 rounded-lg font-semibold">
+    <button
+      style={{
+        width: width
+      }}
+      className="bg-primary-500 text-white py-2.5 px-5 rounded-lg font-semibold">
       {text}
     </button>
   )
