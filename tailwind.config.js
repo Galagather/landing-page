@@ -53,6 +53,7 @@ module.exports = {
       // }
       boxShadow: {
         'primary': '2px 6px 4px 0px rgba(0, 0, 0, 0.12)',
+        'primary-hover': '4px 10px 10px 0px rgba(0, 0, 0, 0.25)',
         'secondary' : '4px 10px 12px 0px rgba(0, 0, 0, 0.25)'
       }
     },

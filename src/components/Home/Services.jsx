@@ -34,7 +34,7 @@ const serviceData = [
 
 const Services = () => {
   return (
-    <div className='px-10 lg:px-20 mb-32 '>
+    <div className='px-10 lg:px-20 mb-32 ' id="service">
       <h1 className='text-3xl lg:text-4xl lg:text-4xl mx-auto font-semibold text-primary-700 leading-normal mb-8'>LAYANAN KAMI</h1>
       <div className="flex flex-col lg:flex-row justify-center gap-10 lg:gap-20">
         {serviceData.map((serv) => {

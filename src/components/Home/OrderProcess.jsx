@@ -28,7 +28,7 @@ const process = [
 
 const OrderProcess = () => {
   return (
-    <div className='px-4 lg:px-20 pb-32'>
+    <div className='px-4 lg:px-20 pb-32' id='process'>
       <h1 className='text-3xl lg:text-4xl mx-auto font-semibold text-primary-700 leading-normal mb-8'>BAGAIMANA PROSES ORDER?</h1>
       <div className='flex flex-col lg:flex-row justify-center gap-5 lg:gap-10'>
         {process.map((pro, index) => {

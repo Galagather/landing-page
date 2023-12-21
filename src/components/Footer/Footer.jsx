@@ -28,7 +28,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className='text-center text-sm mt-6'>Copyright © {new Date().getFullYear()} Tripable. All Right Reserved.</p>
+      <p className='text-center text-sm mt-6'>Copyright © {new Date().getFullYear()} Galagather. All Right Reserved.</p>
     </div>
   )
 }
