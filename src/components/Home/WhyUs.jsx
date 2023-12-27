@@ -30,7 +30,7 @@ const reason = [
 const WhyUs = () => {
   const [icon, setIcon] = useState(reason[0]?.icon)
   return (
-    <div className='px-4 lg:px-20 mb-32' id='whyus'>
+    <div className='px-4 lg:px-20 mb-32 scroll-mt-24' id='whyus'>
       <h1 className='text-3xl lg:text-4xl mx-auto font-semibold text-primary-700 leading-normal mb-8'>MENGAPA HARUS GALAGATHER</h1>
       <div className='flex flex-col lg:flex-row items-center justify-center gap-12'>
         <img src={icon} alt="" className='hidden lg:block w-full lg:w-1/2' />
@@ -40,7 +40,8 @@ const WhyUs = () => {
               <div
                 className={`bg-white shadow-primary hover:shadow-primary-hover rounded-2xl py-5 px-6 ${index !== reason.length - 1 && 'mb-6'} hover:cursor-pointer`}
                 key={index}
-                onClick={() => setIcon(reas.icon)}
+                // onClick={() => setIcon(reas.icon)}
+                onMouseEnter={() => setIcon(reas.icon)}
               >
                 <h3 className='text-primary-700 font-semibold text-2xl mb-2'>{reas.title}</h3>
                 <p className='text-grey-900 text-lg'>{reas.desc}</p>

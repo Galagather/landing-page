@@ -34,7 +34,7 @@ const serviceData = [
 
 const Services = () => {
   return (
-    <div className='px-10 lg:px-20 mb-32 ' id="service">
+    <div className='px-10 lg:px-20 mb-32 scroll-mt-24' id="service">
       <h1 className='text-3xl lg:text-4xl lg:text-4xl mx-auto font-semibold text-primary-700 leading-normal mb-8'>LAYANAN KAMI</h1>
       <div className="flex flex-col lg:flex-row justify-center gap-10 lg:gap-20">
         {serviceData.map((serv) => {
@@ -55,7 +55,7 @@ const Services = () => {
                     <li className="mt-3 flex items-center justify-between">
                       <img src={CheckIcon} alt="" />
                       <p className="w-10/12">{ben}</p>
-                      <img src={InfoIcon} alt="" />
+                      {/* <img src={InfoIcon} alt="" /> */}
                     </li>
                   )
                 })}

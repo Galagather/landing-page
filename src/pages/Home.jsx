@@ -5,7 +5,7 @@ import WhyUs from "../components/Home/WhyUs";
 
 const Home = () => {
   return (
-    <div>
+    <div >
       <Hero />
       <WhyUs />
       <Services />
