@@ -61,7 +61,7 @@ const Header = (link) => {
   }, []);
 
   return (
-    <div className="fixed px-4 lg:px-20 py-2 flex items-center justify-between w-full bg-grey-50 z-50">
+    <div className="fixed px-4 lg:px-20 py-2 flex items-center justify-between w-screen bg-grey-50 z-50">
       <a href="#home" onClick={() => handleClickScroll('#')}>
         <img src={Logo} alt="logo" className='w-16' />
       </a>
